@@ -1,0 +1,19 @@
+.root-pane { -fx-background-color: #1e1f26; }
+.title { -fx-font-size: 26px; -fx-font-weight: bold; -fx-text-fill: #ffffff; }
+.subtitle { -fx-font-size: 14px; -fx-text-fill: #b9bcc6; }
+.field-label { -fx-font-size: 12px; -fx-text-fill: #9aa0ad; }
+.status { -fx-font-size: 15px; -fx-text-fill: #e6e7ea; }
+.text-input { -fx-pref-width: 230px; -fx-background-radius: 8; -fx-font-size: 14px; }
+.primary-button {
+    -fx-background-color: #4f8cff; -fx-text-fill: white; -fx-font-size: 14px;
+    -fx-font-weight: bold; -fx-background-radius: 8; -fx-padding: 8 24 8 24; -fx-cursor: hand;
+}
+.primary-button:hover { -fx-background-color: #6b9dff; }
+.cell {
+    -fx-min-width: 88px; -fx-min-height: 88px; -fx-font-size: 42px; -fx-font-weight: bold;
+    -fx-background-color: #2b2d36; -fx-text-fill: #ffffff; -fx-background-radius: 10; -fx-cursor: hand;
+}
+.cell:disabled { -fx-opacity: 1.0; }
+.x-mark { -fx-text-fill: #4f8cff; }
+.o-mark { -fx-text-fill: #ff7a7a; }
+.win-cell { -fx-background-color: #2f6b3a; }
